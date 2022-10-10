@@ -626,7 +626,7 @@ footer {
         padding: 3rem;
         height: 600px;
     }
-
+    /*----------hasta acá la primera sección------------*/
     .contact-section{
         display: flex;
         flex-direction: column;
@@ -667,5 +667,78 @@ footer {
         font-size: 2rem;
         color: #fff;
         text-shadow: 2px 2px 1px #f773b9; 
+    }
+
+    /*----------hasta acá la sección de contacto------------*/
+
+    
+    .section-habilidad{
+        height: 35rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1rem;
+    }
+
+    .container-group{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        background-image: url(../imagenes/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+    }
+    .container-person{
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        position: relative;
+        top: 20px;
+    }
+
+    .container-person img{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .container-person p{
+        width: auto;
+        color: rgb(99, 97, 97);
+        font-size: 0.5rem;
+    }
+
+    .opcion3{
+        display: none;
+    }
+
+
+    .container-opciones2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 5rem;
+    }
+    .title-section2{
+        text-align:justify;
+        font-size: 2.8rem;
+        font-weight: 400;
+        padding-left: 1rem;
+    }
+    /*----------hasta acá la sección empleo------------*/
+
+    .title-section3{
+        text-align: justify;
+        font-size: 2.1rem;
+        font-weight: 400;
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+
+    .card-img{
+        max-width: 80px;
     }
 }
